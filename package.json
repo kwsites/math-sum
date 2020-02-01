@@ -14,7 +14,7 @@
     "clean": "rimraf ./dist",
     "build": "tsc --project tsconfig.publish.json",
     "preversion": "yarn run clean && yarn run build && yarn test",
-    "postversion": "npm publish --access=public && git push && git push --tags"
+    "postversion": "npm publish --access=public && git push && git push --tags && yarn clean"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
