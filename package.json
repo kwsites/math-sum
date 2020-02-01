@@ -1,7 +1,7 @@
 {
   "name": "@kwsites/math-sum",
   "description": "Gets the sum of values",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
     {
